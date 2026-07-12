@@ -15,6 +15,12 @@ services:
       - APK_LOG_LEVEL=INFO
     command: ["web"]
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/docs')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
 
 volumes:
   uploads:
