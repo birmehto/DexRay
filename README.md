@@ -1,9 +1,12 @@
 # 🔒 DexRay — APK Security Scanner
 
+> Static security analysis for Android APKs — 100+ secret patterns, 50+ vulnerability checks, OWASP Mobile Top 10 & MASVS aligned.
+
 [![Python](https://img.shields.io/badge/python-3.12+-blue?logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![CLI](https://img.shields.io/badge/CLI-Typer+Rich-9cf)](https://typer.tiangolo.com)
 [![Web](https://img.shields.io/badge/Web-FastAPI+Dark--Mode-009688)](https://fastapi.tiangolo.com)
+[![OWASP](https://img.shields.io/badge/OWASP-Mobile%20Top%2010-red)](https://owasp.org/www-project-mobile-top-10/)
 
 <p align="center">
   <img src="assets/banner.png" alt="DexRay Banner" width="600">
