@@ -119,6 +119,14 @@ APK_SERVER_WORKERS=4
 - **OWASP:** Mobile Top 10, MASVS (STORAGE, CRYPTO, NETWORK, PLATFORM, RESILIENCE, PRIVACY, AUTH)
 - **CWE:** 89, 200, 250, 259, 295, 312, 319, 321, 327, 347, 470, 489, 494, 532, 656, 798, 923, 925, 926, 927, 1021, 1104
 
+## 🤝 Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 ## 📄 License
 
 MIT
+
+## 🔒 Security
+
+For reporting security vulnerabilities, please see [SECURITY.md](SECURITY.md).
