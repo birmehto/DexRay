@@ -34,6 +34,9 @@ ENV APK_UPLOAD_DIR=/tmp/apk-analyzer/uploads
 ENV APK_OUTPUT_DIR=/tmp/apk-analyzer/reports
 ENV APK_TEMP_DIR=/tmp/apk-analyzer/temp
 
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD python -c "import httpx; httpx.get('http://localhost:8000/docs')" || exit 1
+
 ENTRYPOINT ["dexray"]
 
 CMD ["--help"]
