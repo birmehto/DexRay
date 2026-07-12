@@ -1,0 +1,68 @@
+# GitHub workflow cache
+.github/workflows/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*$py.class
+
+# Package directories
+*.egg-info/
+*.egg
+dist/
+
+# Distribution / packaging
+*.whl
+
+# Environment files
+.env
+*.local
+
+# Generated outputs
+*.apk
+*.apk_report*
+
+# Reports directory
+tmp/apk-analyzer/
+
+# Python __pycache__
+__pycache__/
+
+# Testing coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Lint/format
+cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Temporary files
+tmp/
+
+# Python 3.12 virtual environment
+.Python
+

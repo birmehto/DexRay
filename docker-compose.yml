@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  dexray:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - uploads:/tmp/apk-analyzer/uploads
+      - reports:/tmp/apk-analyzer/reports
+      - temp:/tmp/apk-analyzer/temp
+    environment:
+      - APK_SERVER_PORT=8000
+      - APK_SERVER_HOST=0.0.0.0
+      - APK_LOG_LEVEL=INFO
+    command: ["web"]
+    restart: unless-stopped
+
+volumes:
+  uploads:
+  reports:
+  temp:
